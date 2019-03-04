@@ -1,0 +1,22 @@
+.section-links{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px, solid, lightgray;
+    align-items: center;
+    width: 75%;
+    align-self: center;
+    margin: 0 auto;
+}
+.section-links > a{
+    margin-top: 5px;
+    padding: 2px;
+}
+.section-links > a:hover{
+    background-color: #e2e2e2;
+    border-radius: 5px;
+
+}
+.section-links > a:last-of-type{
+    text-decoration: underline;
+}
